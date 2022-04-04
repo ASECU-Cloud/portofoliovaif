@@ -624,10 +624,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 8rem;
 }
 
-.h-\[500px\] {
-  height: 500px;
-}
-
 .w-full {
   width: 100%;
 }
@@ -955,6 +951,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 body {
   font-family: 'Inter', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 .navbar-fixed {
